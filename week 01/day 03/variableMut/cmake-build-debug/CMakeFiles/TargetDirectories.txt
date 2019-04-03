@@ -1,0 +1,3 @@
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/variableMut/cmake-build-debug/CMakeFiles/variableMut.dir
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/variableMut/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/variableMut/cmake-build-debug/CMakeFiles/rebuild_cache.dir

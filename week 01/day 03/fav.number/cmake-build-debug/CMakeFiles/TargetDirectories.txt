@@ -1,0 +1,3 @@
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/fav.number/cmake-build-debug/CMakeFiles/fav_number.dir
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/fav.number/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/fav.number/cmake-build-debug/CMakeFiles/rebuild_cache.dir

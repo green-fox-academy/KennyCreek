@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Odd.dir/objects.a
+C:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\Odd.dir/objects.a @CMakeFiles\Odd.dir\objects1.rsp
+C:\MinGW\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Odd.dir/objects.a -Wl,--no-whole-archive  -o Odd.exe -Wl,--out-implib,libOdd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Odd.dir\linklibs.rsp
