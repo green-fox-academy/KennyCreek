@@ -37,7 +37,7 @@ int main(int argc, char *args[]) {
 
 
     int c = 50;
-    int credits = 100;
+    int credits = 500;
     bool isBonus = false;
     // if credits are at least 50,
     // and isBonus is false decrement c by 2
@@ -48,15 +48,16 @@ int main(int argc, char *args[]) {
     int decr = 2;
 
     if (isBonus == false){
-        if 
+        if (credits>=50) {
+            c -= 2;
+        } else if (credits<50){
+            c --;
+        }
+
+
     }
 
-
-
-
-
-
-     << c << std::endl;
+    std::cout<< c << std::endl;
 
 
     int d = 8;
@@ -69,6 +70,13 @@ int main(int argc, char *args[]) {
     // set out3 to "Time out"
     // otherwise set out3 to "Run Forest Run!"
 
+    if( d / 4&&time<200){
+        out3 = "check";
+    } else if (time>200){
+        out3 = "Time out";
+    }else{
+        out3="Run Forest Run!";
+    }
     std::cout << out3 << std::endl;
 
     return 0;

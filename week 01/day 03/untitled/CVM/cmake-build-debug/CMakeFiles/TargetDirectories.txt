@@ -1,3 +1,0 @@
-C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/untitled/CVM/cmake-build-debug/CMakeFiles/CVM.dir
-C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/untitled/CVM/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/vezer/greenfox/KennyCreek/week 01/day 03/untitled/CVM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
