@@ -21,7 +21,7 @@ Gender Person::getGender() const {
     return _gender;
 }
 
-void Person::Introduce() {
+void Person::introduce() {
     std::cout<< "Hi I'm " << _name << ", a " << _age << " years old " << getGenderAsString() << std::endl;
 }
 

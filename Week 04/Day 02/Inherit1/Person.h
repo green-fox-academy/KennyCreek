@@ -16,9 +16,9 @@ class Person{
 public:
     Person(std::string name, int age, Gender gender);
 
-    void Introduce();
+    virtual void introduce();
     std::string getGenderAsString();
-    void getGoal();
+    virtual void getGoal();
 
     const std::string &getName() const;
 
