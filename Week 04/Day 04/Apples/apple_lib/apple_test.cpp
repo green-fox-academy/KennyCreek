@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <string>
+#include <algorithm>
 #include "apple_test.h"
 
 
@@ -17,3 +18,24 @@ int sum (std::vector<int> *Sum){
     }return temp;
 };
 
+std::string anagram1 = "kar";
+std::string anagram2 = "rak";
+
+bool areAnagrams(std::string anagram1,std::string anagram2){
+
+    int word1 = anagram1.size();
+    int word2 = anagram2.size();
+
+    if(word1 != word2)
+        return false;
+
+    std::sort(anagram1.begin(), anagram1.end());
+    std::sort(anagram2.begin(), anagram2.end());
+
+    for (int i = 0; i < word1 ; ++i)
+        if(anagram1[i] != anagram2[i])
+            return false;
+
+
+    return true;
+}

@@ -10,6 +10,7 @@
 
     std::string getApple();
     int sum(std::vector<int> *Sum);
+    bool areAnagrams(std::string anagram1,std::string anagram2);
 
 
 

@@ -39,3 +39,11 @@ TEST(test_check, test_sum3){
     ASSERT_EQ(result, 60);
 }
 
+TEST(test_check, test_anagrams) {
+    //Arrange
+    bool areAnagrams;
+    //Act
+    bool result = areAnagrams;
+    //Assert
+    ASSERT_EQ(result, false);
+}
