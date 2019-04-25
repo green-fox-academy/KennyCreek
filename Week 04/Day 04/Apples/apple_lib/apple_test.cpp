@@ -7,6 +7,13 @@
 
 
 
-std::string apple_test::getApple(){
+std::string getApple(){
     return "apple";
 }
+int sum (std::vector<int> *Sum){
+    int temp = 0;
+    for (int i = 0; i < Sum->size() ; ++i) {
+        temp += Sum->at(i);
+    }return temp;
+};
+

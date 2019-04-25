@@ -5,12 +5,13 @@
 #ifndef APPLES_APPLE_TEST_H
 #define APPLES_APPLE_TEST_H
 
+#include <vector>
 
-class apple_test {
-public:
+
     std::string getApple();
+    int sum(std::vector<int> *Sum);
 
-};
+
 
 
 
