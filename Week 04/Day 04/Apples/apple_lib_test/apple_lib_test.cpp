@@ -47,3 +47,15 @@ TEST(test_check, test_anagrams) {
     //Assert
     ASSERT_EQ(result, false);
 }
+
+TEST(test_check, test_countLetters){
+    //Arrange
+    std::string word = "kkkkkkkiraly";
+    //Act
+    std::map<char, int> letters;
+    letters = countLetters(word);
+    //Assert
+    ASSERT_EQ(letters['k'],7);
+    ASSERT_EQ(letters.size(), 6);
+    
+}

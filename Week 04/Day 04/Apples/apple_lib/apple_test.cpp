@@ -39,3 +39,13 @@ bool areAnagrams(std::string anagram1,std::string anagram2){
 
     return true;
 }
+
+std::map<char, int> countLetters(std::string word) {
+    std::map<char, int> letters;
+    for (int i = 0; i < word.size() ; ++i) {
+        letters[word[i]]++;
+    }
+    return letters;
+}
+
+
