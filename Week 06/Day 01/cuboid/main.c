@@ -7,9 +7,17 @@
 // Volume: 1000
 int main() {
 
-    double lenght = 17.5;
-    double width = 10.5;
-    double height = 8.5;
+
+    double lenght = 0.0;
+    double width = 0.0;
+    double height = 0.0;
+
+    printf("Enter the lenght\n");
+    scanf("%lg" , &lenght);
+    printf("Enter the width\n");
+    scanf("%lg" , &width);
+    printf("Enter the height\n");
+    scanf("%lg" , &height);
 
     double volume = lenght * width * height;
     double area = 2 * (lenght + width + height);
